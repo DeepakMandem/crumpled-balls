@@ -13,12 +13,11 @@ function setup() {
 	createCanvas(800, 700);
 
 
-	box1=createSprite(width/2,height-45,120,10);
+	
 
-  box2=createSprite(335,height-90,10,100);
-
-  box3=createSprite(460,height-90,10,100);
-
+	box1 = new Dustbin(width/2,height-45,120,10);
+	box2 = new Dustbin(335,height-90,10,100);
+	box3 = new Dustbin(460,height-90,10,100);
 
 	ground = new Ground(width/2,600,800,20);
 	paper = new Paper(300,600,50,50);
