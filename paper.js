@@ -12,6 +12,7 @@ class Paper {
       this.width = width;
       this.height = height;
       World.add(world, this.body);
+      this.image= loadImage("paper.png");
     }
     display(){
       var pos =this.body.position;
